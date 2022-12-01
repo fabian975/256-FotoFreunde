@@ -1,0 +1,73 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: navy;
+	}
+
+.navbar {
+	background-color: rgb(46, 46, 46);
+}	
+
+.feature {
+	background: rgb(40, 55, 85) linear-gradient(to bottom, rgb(48, 86, 117), rgb(159, 189, 214));
+	color: black;
+	}
+
+#feature-carousel {
+	min-height: 250px;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    background-image: url(hg.jpg);
+	background-repeat:repeat-x;
+	padding: 30px 0;
+    color: black;
+
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: center;
+	}
+
+
+.row a {
+	color: navy;
+}
+	
+.row p {
+	text-align: start;
+	color: navy;
+	font-size: 12pt;
+	}
+	
+.row p::first-letter	{
+	font-size: 2.8em;
+	float: left;
+	padding-right: 6px;
+	font-weight: bold;
+}
+
+.footer-blurb p{
+	display: flex;
+	justify-content: center;
+}
